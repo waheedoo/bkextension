@@ -1,0 +1,50 @@
+[
+    {
+        "name": "aftership/aftership-php-sdk",
+        "version": "5.0.10",
+        "version_normalized": "5.0.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/AfterShip/aftership-sdk-php.git",
+            "reference": "d8000092957e22d0d5f385fea842e832db9eadbb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/AfterShip/aftership-sdk-php/zipball/d8000092957e22d0d5f385fea842e832db9eadbb",
+            "reference": "d8000092957e22d0d5f385fea842e832db9eadbb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-01-17T03:09:37+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "AfterShip": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "AfterShip",
+                "email": "support@aftership.com"
+            }
+        ],
+        "description": "The PHP SDK of AfterShip API",
+        "keywords": [
+            "FedEx",
+            "aftership",
+            "dhl",
+            "shipping",
+            "track",
+            "tracking",
+            "ups",
+            "usps"
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0bfdcfa72b6951d41f129eb771b90621",
+    "packages": [
+        {
+            "name": "aftership/aftership-php-sdk",
+            "version": "5.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AfterShip/aftership-sdk-php.git",
+                "reference": "d8000092957e22d0d5f385fea842e832db9eadbb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AfterShip/aftership-sdk-php/zipball/d8000092957e22d0d5f385fea842e832db9eadbb",
+                "reference": "d8000092957e22d0d5f385fea842e832db9eadbb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "AfterShip": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "AfterShip",
+                    "email": "support@aftership.com"
+                }
+            ],
+            "description": "The PHP SDK of AfterShip API",
+            "keywords": [
+                "FedEx",
+                "aftership",
+                "dhl",
+                "shipping",
+                "track",
+                "tracking",
+                "ups",
+                "usps"
+            ],
+            "time": "2017-01-17T03:09:37+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

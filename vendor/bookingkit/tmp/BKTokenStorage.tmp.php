@@ -1,0 +1,1 @@
+<?php exit(); ?>O:8:"stdClass":5:{s:12:"access_token";s:40:"4d4bb4b56c60c881ce588000da824cb9d26ea276";s:10:"expires_in";i:3600;s:10:"token_type";s:6:"Bearer";s:5:"scope";s:96:"orders_read_all inventory_write calendar_write calendar_read orders_write_owned orders_write_all";s:7:"expires";i:1499019392;}
