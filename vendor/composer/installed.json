@@ -46,5 +46,43 @@
             "ups",
             "usps"
         ]
+    },
+    {
+        "name": "alfallouji/dhl_api",
+        "version": "0.2.10",
+        "version_normalized": "0.2.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/alfallouji/DHL-API.git",
+            "reference": "95640787e1891e588e4c10de9d571bbdf96df945"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/alfallouji/DHL-API/zipball/95640787e1891e588e4c10de9d571bbdf96df945",
+            "reference": "95640787e1891e588e4c10de9d571bbdf96df945",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-01-06T10:25:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "DHL"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Bashar Al-Fallouji",
+                "email": "bashar@alfallouji.com"
+            }
+        ],
+        "description": "PHP library to communicate with the DHL XML Services."
     }
 ]

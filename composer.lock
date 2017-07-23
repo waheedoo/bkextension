@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0bfdcfa72b6951d41f129eb771b90621",
+    "content-hash": "4bb9e411675f2bf2de82a1f31c067a11",
     "packages": [
         {
             "name": "aftership/aftership-php-sdk",
@@ -51,6 +51,42 @@
                 "usps"
             ],
             "time": "2017-01-17T03:09:37+00:00"
+        },
+        {
+            "name": "alfallouji/dhl_api",
+            "version": "0.2.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alfallouji/DHL-API.git",
+                "reference": "95640787e1891e588e4c10de9d571bbdf96df945"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alfallouji/DHL-API/zipball/95640787e1891e588e4c10de9d571bbdf96df945",
+                "reference": "95640787e1891e588e4c10de9d571bbdf96df945",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "DHL"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Bashar Al-Fallouji",
+                    "email": "bashar@alfallouji.com"
+                }
+            ],
+            "description": "PHP library to communicate with the DHL XML Services.",
+            "time": "2017-01-06T10:25:58+00:00"
         }
     ],
     "packages-dev": [],

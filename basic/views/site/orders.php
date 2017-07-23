@@ -1,10 +1,12 @@
 <div>
     <?php foreach($orders as $o):?>
-        <div class="cell">
-            <?= $o->code;?>
-        </div>
-        <div class="cell">
-            <?php echo isset($trackings[$o->code]) ? $trackings[$o->code]['tag'].'('.$trackings[$o->code]['slug'].')': '';?>
+        <div class="row">
+            <div class="cell">
+                <?= $o->code;?>
+            </div>
+            <div class="cell">
+                <?php echo isset($trackings[$o->code]) ? $trackings[$o->code]['tag'].'('.$trackings[$o->code]['slug'].')': '';?>
+            </div>
         </div>
     <?php endforeach;?>
 </div>
